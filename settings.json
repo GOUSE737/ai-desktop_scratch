@@ -1,0 +1,14 @@
+{
+    "assistant_name": "Jarvis",
+    "wake_word": "jarvis",
+    "listening_timeout": 5,
+    "speech_phrase_limit": 10,
+    "stt_engine": "vosk",
+    "tts_engine": "pyttsx3",
+    "voice_rate": 185,
+    "voice_volume": 1.0,
+    "confirmation_mode": "strict",
+    "default_browser": "chrome",
+    "log_level": "INFO",
+    "theme": "dark"
+}

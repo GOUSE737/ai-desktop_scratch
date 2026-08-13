@@ -1,0 +1,453 @@
+[2026-08-13 15:10:10] [INFO] [TestLogger:test_utils.py:29] - Test log message
+[2026-08-13 15:10:52] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:11:23] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 15:12:04] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Launch Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Start Google Chrome' -> Intent: WEB_SEARCH Entities: {'query': 'chrome'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Search YouTube for Python tutorials' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'python tutorials'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open YouTube and search machine learning' -> Intent: OPEN_APP Entities: {'app_name': 'youtube and search machine learning', 'query': 'youtube and search machine learning'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Create a folder called Major Project' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'major project'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Find my PDF files' -> Intent: FILE_SEARCH Entities: {'query': 'pdf files'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Rename report.pdf to final_report.pdf' -> Intent: RENAME_FILE Entities: {'old_name': 'report.pdf', 'new_name': 'final_report.pdf'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Delete draft.txt' -> Intent: DELETE_FILE Entities: {'target': 'draft.txt'}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Take a screenshot' -> Intent: SCREENSHOT Entities: {}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Lock my computer' -> Intent: SYSTEM_LOCK Entities: {}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Restart the computer' -> Intent: SYSTEM_RESTART Entities: {}
+[2026-08-13 15:12:04] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Shut down computer' -> Intent: SYSTEM_SHUTDOWN Entities: {}
+[2026-08-13 15:12:22] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:12:22] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:12:22] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Launch Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Start Google Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'google chrome'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Can you open the browser?' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'I want to browse something' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Search YouTube for Python tutorials' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'python tutorials'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open YouTube and search machine learning' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'machine learning'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Create a folder called Major Project' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'major project'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Find my PDF files' -> Intent: FILE_SEARCH Entities: {'query': 'pdf files'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Rename report.pdf to final_report.pdf' -> Intent: RENAME_FILE Entities: {'old_name': 'report.pdf', 'new_name': 'final_report.pdf'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Delete draft.txt' -> Intent: DELETE_FILE Entities: {'target': 'draft.txt'}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Take a screenshot' -> Intent: SCREENSHOT Entities: {}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Lock my computer' -> Intent: SYSTEM_LOCK Entities: {}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Restart the computer' -> Intent: SYSTEM_RESTART Entities: {}
+[2026-08-13 15:12:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Shut down computer' -> Intent: SYSTEM_SHUTDOWN Entities: {}
+[2026-08-13 15:13:15] [WARNING] [DesktopController:desktop_controller.py:63] - Application 'non_existent_fake_app_xyz' could not be located in Registry or PATH.
+[2026-08-13 15:13:15] [ERROR] [SystemController:system_controller.py:32] - Screenshot capture failed: PyAutoGUI was unable to import pyscreeze. (This is likely because you're running a version of Python that Pillow (which pyscreeze depends on) doesn't support currently.) Please install this module to enable the function you tried to call.
+[2026-08-13 15:13:17] [INFO] [FileManager:file_manager.py:24] - Created folder at: 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-6\test_create_folder0\Major Project'
+[2026-08-13 15:13:17] [INFO] [FileManager:file_manager.py:86] - Renamed 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-6\test_rename_and_delete0\draft.txt' to 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-6\test_rename_and_delete0\final.txt'
+[2026-08-13 15:13:17] [WARNING] [FileManager:file_manager.py:131] - Deleted item at: 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-6\test_rename_and_delete0\final.txt'
+[2026-08-13 15:14:28] [WARNING] [DesktopController:desktop_controller.py:63] - Application 'non_existent_fake_app_xyz' could not be located in Registry or PATH.
+[2026-08-13 15:14:28] [ERROR] [SystemController:system_controller.py:39] - Screenshot capture failed: screen grab failed
+[2026-08-13 15:14:55] [WARNING] [DesktopController:desktop_controller.py:63] - Application 'non_existent_fake_app_xyz' could not be located in Registry or PATH.
+[2026-08-13 15:14:55] [WARNING] [SystemController:system_controller.py:35] - PIL ImageGrab screenshot failed: screen grab failed
+[2026-08-13 15:14:55] [WARNING] [SystemController:system_controller.py:44] - PyAutoGUI screenshot failed: screen grab failed
+[2026-08-13 15:14:55] [INFO] [SystemController:system_controller.py:53] - Headless fallback screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_151455.png
+[2026-08-13 15:15:28] [WARNING] [DesktopController:desktop_controller.py:63] - Application 'non_existent_fake_app_xyz' could not be located in Registry or PATH.
+[2026-08-13 15:15:28] [WARNING] [SystemController:system_controller.py:35] - PIL ImageGrab screenshot failed: screen grab failed
+[2026-08-13 15:15:29] [WARNING] [SystemController:system_controller.py:44] - PyAutoGUI screenshot failed: screen grab failed
+[2026-08-13 15:15:29] [INFO] [SystemController:system_controller.py:53] - Headless fallback screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_151528.png
+[2026-08-13 15:16:08] [WARNING] [BrowserController:browser_controller.py:37] - Selenium WebDriver initialization failed: No module named 'selenium'. Falling back to default system browser.
+[2026-08-13 15:16:08] [WARNING] [BrowserController:browser_controller.py:37] - Selenium WebDriver initialization failed: No module named 'selenium'. Falling back to default system browser.
+[2026-08-13 15:16:42] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:16:42] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:16:42] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search YouTube for Python tutorials' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'python tutorials'}
+[2026-08-13 15:16:42] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'create a folder called Major Project' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'major project'}
+[2026-08-13 15:16:42] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 3 steps for prompt: 'Open Chrome, search YouTube for Python tutorials, and then create a folder called Major Project'
+[2026-08-13 15:16:42] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SCREENSHOT, Entities={}
+[2026-08-13 15:16:42] [WARNING] [SystemController:system_controller.py:35] - PIL ImageGrab screenshot failed: screen grab failed
+[2026-08-13 15:16:43] [WARNING] [SystemController:system_controller.py:44] - PyAutoGUI screenshot failed: screen grab failed
+[2026-08-13 15:16:43] [INFO] [SystemController:system_controller.py:53] - Headless fallback screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_151642.png
+[2026-08-13 15:17:12] [INFO] [ContextManager:context_manager.py:27] - Context updated: last_app = 'youtube'
+[2026-08-13 15:17:12] [INFO] [ContextManager:context_manager.py:34] - Context updated: search platform='youtube', query='Python tutorials'
+[2026-08-13 15:18:41] [INFO] [ActionVerifier:action_verifier.py:26] - Verification SUCCESS: App 'python' is running with PIDs [21784].
+[2026-08-13 15:19:52] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'take a screenshot'
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:19:52] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'take a screenshot' -> Intent: SCREENSHOT Entities: {}
+[2026-08-13 15:19:52] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'take a screenshot'
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: take a screenshot
+[2026-08-13 15:19:52] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SCREENSHOT, Entities={}
+[2026-08-13 15:19:52] [WARNING] [SystemController:system_controller.py:35] - PIL ImageGrab screenshot failed: screen grab failed
+[2026-08-13 15:19:52] [WARNING] [SystemController:system_controller.py:44] - PyAutoGUI screenshot failed: screen grab failed
+[2026-08-13 15:19:52] [INFO] [SystemController:system_controller.py:53] - Headless fallback screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_151952.png
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying SCREENSHOT outcome...
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'create a folder called testfolder and search for pdf files'
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:19:52] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'create a folder called testfolder' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'testfolder'}
+[2026-08-13 15:19:52] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search for pdf files' -> Intent: WEB_SEARCH Entities: {'query': 'pdf files'}
+[2026-08-13 15:19:52] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 2 steps for prompt: 'create a folder called testfolder and search for pdf files'
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: create a folder called testfolder
+[2026-08-13 15:19:52] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=CREATE_FOLDER, Entities={'folder_name': 'testfolder'}
+[2026-08-13 15:19:52] [INFO] [FileManager:file_manager.py:24] - Created folder at: 'C:\Users\SHAIK GOUSE\Desktop\testfolder'
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying CREATE_FOLDER outcome...
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 2: search for pdf files
+[2026-08-13 15:19:52] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 2: Intent=WEB_SEARCH, Entities={'query': 'pdf files'}
+[2026-08-13 15:19:52] [WARNING] [BrowserController:browser_controller.py:37] - Selenium WebDriver initialization failed: No module named 'selenium'. Falling back to default system browser.
+[2026-08-13 15:19:52] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying WEB_SEARCH outcome...
+[2026-08-13 15:19:52] [INFO] [ContextManager:context_manager.py:34] - Context updated: search platform='google', query='pdf files'
+[2026-08-13 15:19:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:19:54] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:19:54] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:20:27] [WARNING] [BrowserController:browser_controller.py:37] - Selenium WebDriver initialization failed: No module named 'selenium'. Falling back to default system browser.
+[2026-08-13 15:20:27] [WARNING] [BrowserController:browser_controller.py:37] - Selenium WebDriver initialization failed: No module named 'selenium'. Falling back to default system browser.
+[2026-08-13 15:20:27] [INFO] [ContextManager:context_manager.py:27] - Context updated: last_app = 'youtube'
+[2026-08-13 15:20:27] [INFO] [ContextManager:context_manager.py:34] - Context updated: search platform='youtube', query='Python tutorials'
+[2026-08-13 15:20:38] [WARNING] [DesktopController:desktop_controller.py:63] - Application 'non_existent_fake_app_xyz' could not be located in Registry or PATH.
+[2026-08-13 15:20:38] [WARNING] [SystemController:system_controller.py:35] - PIL ImageGrab screenshot failed: screen grab failed
+[2026-08-13 15:20:38] [WARNING] [SystemController:system_controller.py:44] - PyAutoGUI screenshot failed: screen grab failed
+[2026-08-13 15:20:38] [INFO] [SystemController:system_controller.py:53] - Headless fallback screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_152038.png
+[2026-08-13 15:20:38] [INFO] [FileManager:file_manager.py:24] - Created folder at: 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-8\test_create_folder0\Major Project'
+[2026-08-13 15:20:38] [INFO] [FileManager:file_manager.py:86] - Renamed 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-8\test_rename_and_delete0\draft.txt' to 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-8\test_rename_and_delete0\final.txt'
+[2026-08-13 15:20:38] [WARNING] [FileManager:file_manager.py:131] - Deleted item at: 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-8\test_rename_and_delete0\final.txt'
+[2026-08-13 15:20:38] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'take a screenshot'
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:20:38] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'take a screenshot' -> Intent: SCREENSHOT Entities: {}
+[2026-08-13 15:20:38] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'take a screenshot'
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: take a screenshot
+[2026-08-13 15:20:38] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SCREENSHOT, Entities={}
+[2026-08-13 15:20:38] [WARNING] [SystemController:system_controller.py:35] - PIL ImageGrab screenshot failed: screen grab failed
+[2026-08-13 15:20:38] [WARNING] [SystemController:system_controller.py:44] - PyAutoGUI screenshot failed: screen grab failed
+[2026-08-13 15:20:38] [INFO] [SystemController:system_controller.py:53] - Headless fallback screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_152038.png
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying SCREENSHOT outcome...
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'create a folder called testfolder and search for pdf files'
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:20:38] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'create a folder called testfolder' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'testfolder'}
+[2026-08-13 15:20:38] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search for pdf files' -> Intent: WEB_SEARCH Entities: {'query': 'pdf files'}
+[2026-08-13 15:20:38] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 2 steps for prompt: 'create a folder called testfolder and search for pdf files'
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: create a folder called testfolder
+[2026-08-13 15:20:38] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=CREATE_FOLDER, Entities={'folder_name': 'testfolder'}
+[2026-08-13 15:20:38] [INFO] [FileManager:file_manager.py:24] - Created folder at: 'C:\Users\SHAIK GOUSE\Desktop\testfolder'
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying CREATE_FOLDER outcome...
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 2: search for pdf files
+[2026-08-13 15:20:38] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 2: Intent=WEB_SEARCH, Entities={'query': 'pdf files'}
+[2026-08-13 15:20:38] [WARNING] [BrowserController:browser_controller.py:37] - Selenium WebDriver initialization failed: No module named 'selenium'. Falling back to default system browser.
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying WEB_SEARCH outcome...
+[2026-08-13 15:20:38] [INFO] [ContextManager:context_manager.py:34] - Context updated: search platform='google', query='pdf files'
+[2026-08-13 15:20:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Launch Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Start Google Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'google chrome'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Can you open the browser?' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'I want to browse something' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Search YouTube for Python tutorials' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'python tutorials'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open YouTube and search machine learning' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'machine learning'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Create a folder called Major Project' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'major project'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Find my PDF files' -> Intent: FILE_SEARCH Entities: {'query': 'pdf files'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Rename report.pdf to final_report.pdf' -> Intent: RENAME_FILE Entities: {'old_name': 'report.pdf', 'new_name': 'final_report.pdf'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Delete draft.txt' -> Intent: DELETE_FILE Entities: {'target': 'draft.txt'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Take a screenshot' -> Intent: SCREENSHOT Entities: {}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Lock my computer' -> Intent: SYSTEM_LOCK Entities: {}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Restart the computer' -> Intent: SYSTEM_RESTART Entities: {}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Shut down computer' -> Intent: SYSTEM_SHUTDOWN Entities: {}
+[2026-08-13 15:20:39] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 15:20:39] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:20:39] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Testing text to speech service'
+[2026-08-13 15:20:39] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search YouTube for Python tutorials' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'python tutorials'}
+[2026-08-13 15:20:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'create a folder called Major Project' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'major project'}
+[2026-08-13 15:20:39] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 3 steps for prompt: 'Open Chrome, search YouTube for Python tutorials, and then create a folder called Major Project'
+[2026-08-13 15:20:39] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SCREENSHOT, Entities={}
+[2026-08-13 15:20:39] [WARNING] [SystemController:system_controller.py:35] - PIL ImageGrab screenshot failed: screen grab failed
+[2026-08-13 15:20:39] [WARNING] [SystemController:system_controller.py:44] - PyAutoGUI screenshot failed: screen grab failed
+[2026-08-13 15:20:39] [INFO] [SystemController:system_controller.py:53] - Headless fallback screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_152039.png
+[2026-08-13 15:20:39] [INFO] [TestLogger:test_utils.py:29] - Test log message
+[2026-08-13 15:20:39] [INFO] [ActionVerifier:action_verifier.py:26] - Verification SUCCESS: App 'python' is running with PIDs [8776].
+[2026-08-13 15:20:40] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:20:40] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:29:00] [INFO] [BrowserController:browser_controller.py:33] - Initializing Selenium WebDriver using standard Selenium Manager...
+[2026-08-13 15:29:31] [INFO] [ContextManager:context_manager.py:27] - Context updated: last_app = 'youtube'
+[2026-08-13 15:29:31] [INFO] [ContextManager:context_manager.py:34] - Context updated: search platform='youtube', query='Python tutorials'
+[2026-08-13 15:29:42] [WARNING] [DesktopController:desktop_controller.py:63] - Application 'non_existent_fake_app_xyz' could not be located in Registry or PATH.
+[2026-08-13 15:29:43] [INFO] [SystemController:system_controller.py:32] - Screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_152942.png
+[2026-08-13 15:29:43] [INFO] [FileManager:file_manager.py:24] - Created folder at: 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-9\test_create_folder0\Major Project'
+[2026-08-13 15:29:43] [INFO] [FileManager:file_manager.py:86] - Renamed 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-9\test_rename_and_delete0\draft.txt' to 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-9\test_rename_and_delete0\final.txt'
+[2026-08-13 15:29:43] [WARNING] [FileManager:file_manager.py:131] - Deleted item at: 'C:\Users\SHAIK GOUSE\AppData\Local\Temp\pytest-of-SHAIK GOUSE\pytest-9\test_rename_and_delete0\final.txt'
+[2026-08-13 15:29:43] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'take a screenshot'
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:29:43] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'take a screenshot' -> Intent: SCREENSHOT Entities: {}
+[2026-08-13 15:29:43] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'take a screenshot'
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: take a screenshot
+[2026-08-13 15:29:43] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SCREENSHOT, Entities={}
+[2026-08-13 15:29:43] [INFO] [SystemController:system_controller.py:32] - Screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_152943.png
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying SCREENSHOT outcome...
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'create a folder called testfolder and search for pdf files'
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:29:43] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'create a folder called testfolder' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'testfolder'}
+[2026-08-13 15:29:43] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search for pdf files' -> Intent: WEB_SEARCH Entities: {'query': 'pdf files'}
+[2026-08-13 15:29:43] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 2 steps for prompt: 'create a folder called testfolder and search for pdf files'
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: create a folder called testfolder
+[2026-08-13 15:29:43] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=CREATE_FOLDER, Entities={'folder_name': 'testfolder'}
+[2026-08-13 15:29:43] [INFO] [FileManager:file_manager.py:24] - Created folder at: 'C:\Users\SHAIK GOUSE\Desktop\testfolder'
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying CREATE_FOLDER outcome...
+[2026-08-13 15:29:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 2: search for pdf files
+[2026-08-13 15:29:43] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 2: Intent=WEB_SEARCH, Entities={'query': 'pdf files'}
+[2026-08-13 15:29:43] [INFO] [BrowserController:browser_controller.py:33] - Initializing Selenium WebDriver using standard Selenium Manager...
+[2026-08-13 15:29:43] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:29:45] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:29:46] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying WEB_SEARCH outcome...
+[2026-08-13 15:29:46] [INFO] [ContextManager:context_manager.py:34] - Context updated: search platform='google', query='pdf files'
+[2026-08-13 15:29:46] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:29:46] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Launch Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Start Google Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'google chrome'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Can you open the browser?' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'I want to browse something' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Search YouTube for Python tutorials' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'python tutorials'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open YouTube and search machine learning' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'machine learning'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Create a folder called Major Project' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'major project'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Find my PDF files' -> Intent: FILE_SEARCH Entities: {'query': 'pdf files'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Rename report.pdf to final_report.pdf' -> Intent: RENAME_FILE Entities: {'old_name': 'report.pdf', 'new_name': 'final_report.pdf'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Delete draft.txt' -> Intent: DELETE_FILE Entities: {'target': 'draft.txt'}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Take a screenshot' -> Intent: SCREENSHOT Entities: {}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Lock my computer' -> Intent: SYSTEM_LOCK Entities: {}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Restart the computer' -> Intent: SYSTEM_RESTART Entities: {}
+[2026-08-13 15:29:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Shut down computer' -> Intent: SYSTEM_SHUTDOWN Entities: {}
+[2026-08-13 15:29:46] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 15:29:46] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Testing text to speech service'
+[2026-08-13 15:29:46] [ERROR] [TTSService:text_to_speech.py:48] - Error during TTS playback: run loop already started
+[2026-08-13 15:29:47] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:29:47] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'Open Chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:29:47] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search YouTube for Python tutorials' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'python tutorials'}
+[2026-08-13 15:29:47] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'create a folder called Major Project' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'major project'}
+[2026-08-13 15:29:47] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 3 steps for prompt: 'Open Chrome, search YouTube for Python tutorials, and then create a folder called Major Project'
+[2026-08-13 15:29:47] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SCREENSHOT, Entities={}
+[2026-08-13 15:29:47] [INFO] [SystemController:system_controller.py:32] - Screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_152947.png
+[2026-08-13 15:29:47] [INFO] [TestLogger:test_utils.py:29] - Test log message
+[2026-08-13 15:29:47] [INFO] [ActionVerifier:action_verifier.py:26] - Verification SUCCESS: App 'python' is running with PIDs [19248].
+[2026-08-13 15:29:48] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:30:13] [INFO] [DatabaseManager:database.py:57] - Database schema initialized successfully.
+[2026-08-13 15:30:32] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'open chrome and search for jntuhucem'
+[2026-08-13 15:30:32] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:30:32] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'open chrome' -> Intent: OPEN_APP Entities: {'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:30:32] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search for jntuhucem' -> Intent: WEB_SEARCH Entities: {'query': 'jntuhucem'}
+[2026-08-13 15:30:32] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 2 steps for prompt: 'open chrome and search for jntuhucem'
+[2026-08-13 15:30:32] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: open chrome
+[2026-08-13 15:30:32] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=OPEN_APP, Entities={'app_name': 'chrome', 'query': 'chrome'}
+[2026-08-13 15:30:32] [INFO] [DesktopController:desktop_controller.py:67] - Launching application at path: 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+[2026-08-13 15:30:32] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying OPEN_APP outcome...
+[2026-08-13 15:30:32] [INFO] [ActionVerifier:action_verifier.py:26] - Verification SUCCESS: App 'chrome' is running with PIDs [4296, 5440, 6884, 8972, 9532, 10324, 11468, 12688, 13048, 13268, 15444, 15460, 15768, 15836, 16208, 16712, 16784, 16820, 17016, 17536, 18732, 21100, 21220, 21428, 22304, 22696, 22900, 23364, 24476].
+[2026-08-13 15:30:32] [INFO] [ContextManager:context_manager.py:27] - Context updated: last_app = 'chrome'
+[2026-08-13 15:30:32] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 2: search for jntuhucem
+[2026-08-13 15:30:32] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 2: Intent=WEB_SEARCH, Entities={'query': 'jntuhucem'}
+[2026-08-13 15:30:32] [INFO] [BrowserController:browser_controller.py:33] - Initializing Selenium WebDriver using standard Selenium Manager...
+[2026-08-13 15:30:36] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying WEB_SEARCH outcome...
+[2026-08-13 15:30:36] [INFO] [ContextManager:context_manager.py:34] - Context updated: search platform='google', query='jntuhucem'
+[2026-08-13 15:30:36] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:30:36] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:30:38] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:31:46] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'open youtube and search for chikkiri song in telugu and play'
+[2026-08-13 15:31:46] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:31:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'open youtube' -> Intent: OPEN_APP Entities: {'app_name': 'youtube', 'query': 'youtube'}
+[2026-08-13 15:31:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search for chikkiri song in telugu' -> Intent: WEB_SEARCH Entities: {'query': 'chikkiri song in telugu'}
+[2026-08-13 15:31:46] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'play' -> Intent: UNKNOWN Entities: {}
+[2026-08-13 15:31:46] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 3 steps for prompt: 'open youtube and search for chikkiri song in telugu and play'
+[2026-08-13 15:31:46] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: open youtube
+[2026-08-13 15:31:46] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=OPEN_APP, Entities={'app_name': 'youtube', 'query': 'youtube'}
+[2026-08-13 15:31:57] [WARNING] [DesktopController:desktop_controller.py:63] - Application 'youtube' could not be located in Registry or PATH.
+[2026-08-13 15:31:57] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying OPEN_APP outcome...
+[2026-08-13 15:31:58] [WARNING] [ActionVerifier:action_verifier.py:30] - Verification FAILED: App 'youtube' did not start within 1.5s.
+[2026-08-13 15:31:58] [INFO] [ContextManager:context_manager.py:27] - Context updated: last_app = 'youtube'
+[2026-08-13 15:31:58] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Step failed: Application 'youtube' is not installed or path could not be resolved.
+[2026-08-13 15:31:58] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Application 'youtube' is not installed or path could not be resolved.'
+[2026-08-13 15:32:23] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'search youtube for chikiri song and play it'
+[2026-08-13 15:32:23] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:32:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'search youtube for chikiri song' -> Intent: YOUTUBE_SEARCH Entities: {'query': 'chikiri song'}
+[2026-08-13 15:32:23] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'play it' -> Intent: UNKNOWN Entities: {}
+[2026-08-13 15:32:23] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 2 steps for prompt: 'search youtube for chikiri song and play it'
+[2026-08-13 15:32:23] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: search youtube for chikiri song
+[2026-08-13 15:32:23] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=YOUTUBE_SEARCH, Entities={'query': 'chikiri song'}
+[2026-08-13 15:32:23] [ERROR] [BrowserController:browser_controller.py:55] - Failed to open URL 'https://www.youtube.com/results?search_query=chikiri+song': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6be11a235
+	0x7ff6bde72630
+	0x7ff6bdc016dd
+	0x7ff6bdbed205
+	0x7ff6bdc12a8a
+	0x7ff6bdc8a476
+	0x7ff6bdcab3d2
+	0x7ff6bdc4b0ed
+	0x7ff6bdc4bf63
+	0x7ff6be145d60
+	0x7ff6be13fe8a
+	0x7ff6be161005
+	0x7ff6bde8d71e
+	0x7ff6bde94e1f
+	0x7ff6bde7b7c4
+	0x7ff6bde7b97f
+	0x7ff6bde618e8
+	0x7ff8b7f6ccb7
+	0x7ff8b922ad6c
+
+[2026-08-13 15:32:23] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying YOUTUBE_SEARCH outcome...
+[2026-08-13 15:32:23] [INFO] [ContextManager:context_manager.py:34] - Context updated: search platform='youtube', query='chikiri song'
+[2026-08-13 15:32:23] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 2: play it
+[2026-08-13 15:32:23] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 2: Intent=UNKNOWN, Entities={}
+[2026-08-13 15:32:23] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying UNKNOWN outcome...
+[2026-08-13 15:32:23] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Step failed: Unknown command or unsupported intent: 'play it'
+[2026-08-13 15:32:23] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Unknown command or unsupported intent: 'play it''
+[2026-08-13 15:32:45] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'calculate 2 2'
+[2026-08-13 15:32:45] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:32:45] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'calculate 2 2' -> Intent: UNKNOWN Entities: {}
+[2026-08-13 15:32:45] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'calculate 2 2'
+[2026-08-13 15:32:45] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: calculate 2 2
+[2026-08-13 15:32:45] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=UNKNOWN, Entities={}
+[2026-08-13 15:32:45] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying UNKNOWN outcome...
+[2026-08-13 15:32:45] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Step failed: Unknown command or unsupported intent: 'calculate 2 2'
+[2026-08-13 15:32:45] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Unknown command or unsupported intent: 'calculate 2 2''
+[2026-08-13 15:33:13] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'open calculator'
+[2026-08-13 15:33:13] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:33:13] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'open calculator' -> Intent: OPEN_APP Entities: {'app_name': 'calculator', 'query': 'calculator'}
+[2026-08-13 15:33:13] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'open calculator'
+[2026-08-13 15:33:13] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: open calculator
+[2026-08-13 15:33:13] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=OPEN_APP, Entities={'app_name': 'calculator', 'query': 'calculator'}
+[2026-08-13 15:33:13] [INFO] [DesktopController:desktop_controller.py:67] - Launching application at path: 'C:\WINDOWS\system32\calc.exe'
+[2026-08-13 15:33:13] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying OPEN_APP outcome...
+[2026-08-13 15:33:14] [INFO] [ActionVerifier:action_verifier.py:26] - Verification SUCCESS: App 'calculator' is running with PIDs [11220].
+[2026-08-13 15:33:14] [INFO] [ContextManager:context_manager.py:27] - Context updated: last_app = 'calculator'
+[2026-08-13 15:33:14] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:33:14] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:33:16] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:33:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'take a screen shot'
+[2026-08-13 15:33:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:33:26] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'take a screen shot' -> Intent: UNKNOWN Entities: {}
+[2026-08-13 15:33:26] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'take a screen shot'
+[2026-08-13 15:33:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: take a screen shot
+[2026-08-13 15:33:26] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=UNKNOWN, Entities={}
+[2026-08-13 15:33:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying UNKNOWN outcome...
+[2026-08-13 15:33:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Step failed: Unknown command or unsupported intent: 'take a screen shot'
+[2026-08-13 15:33:26] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Unknown command or unsupported intent: 'take a screen shot''
+[2026-08-13 15:33:40] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'take a screenshot'
+[2026-08-13 15:33:40] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:33:40] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'take a screenshot' -> Intent: SCREENSHOT Entities: {}
+[2026-08-13 15:33:40] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'take a screenshot'
+[2026-08-13 15:33:40] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: take a screenshot
+[2026-08-13 15:33:40] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SCREENSHOT, Entities={}
+[2026-08-13 15:33:41] [INFO] [SystemController:system_controller.py:32] - Screenshot saved to: C:\Users\SHAIK GOUSE\.gemini\antigravity\scratch\ai_offline_desktop_assistant\screenshots\screenshot_20260813_153340.png
+[2026-08-13 15:33:41] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying SCREENSHOT outcome...
+[2026-08-13 15:33:41] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:33:41] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:33:43] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:34:02] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'voice'
+[2026-08-13 15:34:02] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:34:02] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'voice' -> Intent: UNKNOWN Entities: {}
+[2026-08-13 15:34:02] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'voice'
+[2026-08-13 15:34:02] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: voice
+[2026-08-13 15:34:02] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=UNKNOWN, Entities={}
+[2026-08-13 15:34:02] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying UNKNOWN outcome...
+[2026-08-13 15:34:02] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Step failed: Unknown command or unsupported intent: 'voice'
+[2026-08-13 15:34:02] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Unknown command or unsupported intent: 'voice''
+[2026-08-13 15:34:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'find my pdf files'
+[2026-08-13 15:34:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:34:26] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'find my pdf files' -> Intent: FILE_SEARCH Entities: {'query': 'pdf files'}
+[2026-08-13 15:34:26] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'find my pdf files'
+[2026-08-13 15:34:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: find my pdf files
+[2026-08-13 15:34:26] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=FILE_SEARCH, Entities={'query': 'pdf files'}
+[2026-08-13 15:34:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying FILE_SEARCH outcome...
+[2026-08-13 15:34:26] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Step failed: No files found matching 'pdf files'.
+[2026-08-13 15:34:26] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'No files found matching 'pdf files'.'
+[2026-08-13 15:34:39] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'find my project1 files'
+[2026-08-13 15:34:39] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:34:39] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'find my project1 files' -> Intent: FILE_SEARCH Entities: {'query': 'project1 files'}
+[2026-08-13 15:34:39] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'find my project1 files'
+[2026-08-13 15:34:39] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: find my project1 files
+[2026-08-13 15:34:39] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=FILE_SEARCH, Entities={'query': 'project1 files'}
+[2026-08-13 15:34:39] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying FILE_SEARCH outcome...
+[2026-08-13 15:34:39] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Step failed: No files found matching 'project1 files'.
+[2026-08-13 15:34:39] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'No files found matching 'project1 files'.'
+[2026-08-13 15:35:07] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'create a folder called major project'
+[2026-08-13 15:35:07] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:35:07] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'create a folder called major project' -> Intent: CREATE_FOLDER Entities: {'folder_name': 'major project'}
+[2026-08-13 15:35:07] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'create a folder called major project'
+[2026-08-13 15:35:07] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: create a folder called major project
+[2026-08-13 15:35:07] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=CREATE_FOLDER, Entities={'folder_name': 'major project'}
+[2026-08-13 15:35:07] [INFO] [FileManager:file_manager.py:24] - Created folder at: 'C:\Users\SHAIK GOUSE\Desktop\major project'
+[2026-08-13 15:35:07] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying CREATE_FOLDER outcome...
+[2026-08-13 15:35:07] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:35:07] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:35:10] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:35:51] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'turn volume up'
+[2026-08-13 15:35:51] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:35:51] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'turn volume up' -> Intent: SYSTEM_VOLUME Entities: {'action': 'up', 'level': None}
+[2026-08-13 15:35:51] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'turn volume up'
+[2026-08-13 15:35:51] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: turn volume up
+[2026-08-13 15:35:51] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SYSTEM_VOLUME, Entities={'action': 'up', 'level': None}
+[2026-08-13 15:35:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying SYSTEM_VOLUME outcome...
+[2026-08-13 15:35:52] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:35:52] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:35:54] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:35:58] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [LISTENING] - Listening via microphone...
+[2026-08-13 15:35:58] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 15:35:58] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Microphone is unavailable or not connected.
+[2026-08-13 15:35:58] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Microphone is unavailable or not connected.'
+[2026-08-13 15:36:00] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready
+[2026-08-13 15:36:09] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [LISTENING] - Listening via microphone...
+[2026-08-13 15:36:09] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 15:36:09] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Microphone is unavailable or not connected.
+[2026-08-13 15:36:09] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Microphone is unavailable or not connected.'
+[2026-08-13 15:36:11] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready
+[2026-08-13 15:36:15] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [LISTENING] - Listening via microphone...
+[2026-08-13 15:36:15] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 15:36:15] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Microphone is unavailable or not connected.
+[2026-08-13 15:36:15] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Microphone is unavailable or not connected.'
+[2026-08-13 15:36:17] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready
+[2026-08-13 15:36:22] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [LISTENING] - Listening via microphone...
+[2026-08-13 15:36:22] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 15:36:22] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Microphone is unavailable or not connected.
+[2026-08-13 15:36:22] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Microphone is unavailable or not connected.'
+[2026-08-13 15:36:24] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready
+[2026-08-13 15:36:32] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [LISTENING] - Listening via microphone...
+[2026-08-13 15:36:32] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 15:36:32] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Microphone is unavailable or not connected.
+[2026-08-13 15:36:32] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Microphone is unavailable or not connected.'
+[2026-08-13 15:36:34] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready
+[2026-08-13 15:36:56] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'turn volume up'
+[2026-08-13 15:36:56] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:36:56] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'turn volume up' -> Intent: SYSTEM_VOLUME Entities: {'action': 'up', 'level': None}
+[2026-08-13 15:36:56] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'turn volume up'
+[2026-08-13 15:36:56] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: turn volume up
+[2026-08-13 15:36:56] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SYSTEM_VOLUME, Entities={'action': 'up', 'level': None}
+[2026-08-13 15:36:57] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying SYSTEM_VOLUME outcome...
+[2026-08-13 15:36:57] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:36:57] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:36:59] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:37:06] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'turn volume max'
+[2026-08-13 15:37:06] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:37:06] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'turn volume max' -> Intent: SYSTEM_VOLUME Entities: {'action': 'toggle', 'level': None}
+[2026-08-13 15:37:06] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'turn volume max'
+[2026-08-13 15:37:06] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: turn volume max
+[2026-08-13 15:37:06] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SYSTEM_VOLUME, Entities={'action': 'toggle', 'level': None}
+[2026-08-13 15:37:06] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying SYSTEM_VOLUME outcome...
+[2026-08-13 15:37:06] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:37:06] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:37:08] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 15:37:14] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PROCESSING] - Understanding: 'turn volume up'
+[2026-08-13 15:37:14] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [PLANNING] - Decomposing task steps...
+[2026-08-13 15:37:14] [INFO] [IntentEngine:intent_engine.py:38] - Parsed text 'turn volume up' -> Intent: SYSTEM_VOLUME Entities: {'action': 'up', 'level': None}
+[2026-08-13 15:37:14] [INFO] [TaskPlanner:task_planner.py:56] - Generated task plan with 1 steps for prompt: 'turn volume up'
+[2026-08-13 15:37:14] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [EXECUTING] - Step 1: turn volume up
+[2026-08-13 15:37:14] [INFO] [TaskExecutor:task_executor.py:31] - Executing step 1: Intent=SYSTEM_VOLUME, Entities={'action': 'up', 'level': None}
+[2026-08-13 15:37:15] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [VERIFYING] - Verifying SYSTEM_VOLUME outcome...
+[2026-08-13 15:37:15] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [SUCCESS] - Task completed successfully.
+[2026-08-13 15:37:15] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Task completed successfully.'
+[2026-08-13 15:37:17] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready for commands.
+[2026-08-13 21:44:15] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [LISTENING] - Listening via microphone...
+[2026-08-13 21:44:15] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 21:44:15] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Microphone is unavailable or not connected.
+[2026-08-13 21:44:15] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Microphone is unavailable or not connected.'
+[2026-08-13 21:44:17] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready
+[2026-08-13 21:44:40] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [LISTENING] - Listening via microphone...
+[2026-08-13 21:44:40] [WARNING] [STTService:speech_to_text.py:30] - Error enumerating microphone devices: Could not find PyAudio; check installation
+[2026-08-13 21:44:40] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [ERROR] - Microphone is unavailable or not connected.
+[2026-08-13 21:44:40] [INFO] [TTSService:text_to_speech.py:40] - Speaking: 'Microphone is unavailable or not connected.'
+[2026-08-13 21:44:42] [INFO] [AssistantCore:assistant.py:43] - Assistant State Transition: [IDLE] - Ready

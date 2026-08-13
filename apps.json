@@ -1,0 +1,34 @@
+{
+    "chrome": {
+        "executable": "chrome.exe",
+        "aliases": ["google chrome", "chrome browser", "browser"]
+    },
+    "vscode": {
+        "executable": "code.cmd",
+        "aliases": ["vs code", "visual studio code", "code editor"]
+    },
+    "notepad": {
+        "executable": "notepad.exe",
+        "aliases": ["text editor", "notes"]
+    },
+    "calculator": {
+        "executable": "calc.exe",
+        "aliases": ["calc", "math calculator"]
+    },
+    "explorer": {
+        "executable": "explorer.exe",
+        "aliases": ["file explorer", "files", "my computer", "this pc"]
+    },
+    "cmd": {
+        "executable": "cmd.exe",
+        "aliases": ["command prompt", "terminal"]
+    },
+    "powershell": {
+        "executable": "powershell.exe",
+        "aliases": ["power shell"]
+    },
+    "mspaint": {
+        "executable": "mspaint.exe",
+        "aliases": ["paint", "draw"]
+    }
+}
