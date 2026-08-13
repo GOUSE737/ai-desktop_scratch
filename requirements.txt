@@ -1,0 +1,15 @@
+# AI-Based Offline Desktop Assistant Requirements
+# Platform: Windows 10 / Windows 11 (64-bit)
+# Python: 3.14+
+
+psutil>=6.0.0
+pywin32>=306
+pyautogui>=0.9.54
+pillow>=10.0.0
+selenium>=4.20.0
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+vosk>=0.3.45
+customtkinter>=5.2.0
+pytest>=8.0.0
+python-dotenv>=1.0.0

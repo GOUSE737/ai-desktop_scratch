@@ -1,2 +1,29 @@
-# Created by pytest automatically.
-*
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Logs & Storage
+logs/*.log
+*.db
+*.sqlite3
+storage/*.db
+
+# Secrets & Environment
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+
+# Screenshots & Cache
+screenshots/
+temp/
+vosk-model-*/
